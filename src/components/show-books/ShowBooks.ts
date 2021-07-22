@@ -12,13 +12,13 @@ export default Vue.extend({
   },
   methods: {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    addToBag (book: any) {
+    addToBag (book: never) {
       this.cartArray.push(book)
       localStorage.setItem('cartBooks', JSON.stringify(this.cartArray))
       alert('BOOK ADDED TO CART...')
     },
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    addToWishList (book: any) {
+    addToWishList (book: never) {
       this.cartArray.push(book)
       localStorage.setItem('wishlistBooks', JSON.stringify(this.cartArray))
       alert('BOOK ADDED TO WISHLIST...')
