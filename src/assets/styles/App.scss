@@ -1,0 +1,72 @@
+//variables
+$primary-blue: rgb(29, 140, 204);
+$secondary-blue: rgba(29, 140, 204, .7);
+$primary-white: rgb(255, 255, 255);
+$secondary-white: rgba(255, 255, 255, .8);
+$primary-black: rgb(0, 0, 0);
+$primary-grey: rgb(56, 56, 56);
+
+html,
+body {
+  height: 100%;
+}
+
+// login and signin box
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  max-width: 450px;
+  min-width: 250px;
+  min-height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: $primary-white;
+  background-image: linear-gradient($secondary-white, $secondary-blue);
+  border: 1px groove $primary-black;
+  padding: 20px;
+}
+
+/* Login & SignIn button */
+.button {
+  background-color: $primary-white;
+  color: $primary-grey;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 5px;
+  margin:20px;
+}
+
+// input fields
+.field{
+  width: 250px;
+  padding: 3px;
+  margin: 5px;
+  background-color: $primary-white;
+  border:1px groove $primary-black;
+}
+
+//input wrapper
+.input-wrapper{
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+}
+
+// links in the signin, signup, forget password, reset password
+.ref-link{
+  padding: 5px;
+}
+
+.user-icon{
+  height: 80px;
+}
+
+body#login{
+  background-image: url('../images/book-background.jpg');
+  height: 80%;
+  overflow: scroll;
+}

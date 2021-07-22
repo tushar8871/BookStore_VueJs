@@ -1,0 +1,98 @@
+.outer-book-view {
+  padding-left: 120px;
+}
+.outerdiv{
+  size: inherit;
+  width: 100%;
+}
+.bookdetails {
+    width: 250px;
+    height: 320px;
+    display: inline-flex;
+    font: bold;
+  }
+  @media (max-width: 700px) {
+    .bookdetails {
+      width: 150px;
+      height: 200px;
+      font-size: 8px;
+    }
+  }
+  .imagediv {
+    padding-top: 10px;
+    width: 250px;
+    height: 180px;
+    background-image: linear-gradient(to right , rgb(247, 195, 195), rgb(168, 233, 241));
+  }
+  @media (max-width: 700px) {
+    .imagediv {
+      width: 150px;
+      height: 110px;
+    }
+  }
+  .bookimage {
+    width: 50%;
+    margin-left: 25%;
+  }
+  @media (max-width: 700px) {
+    .bookimage {
+      width: 70px;
+      margin-left: 25%;
+    }
+  }
+  .bookcredentials {
+    margin-top: 5px;
+  }
+  @media (max-width: 700px) {
+    .bookcredentials {
+      margin-top: 5px;
+    }
+  }
+  .booktitle {
+      font-size: 15px;
+      font-weight :bold;
+      margin-left :10px;
+  }
+  @media (max-width: 700px) {
+    .booktitle {
+      font-size: 8px;
+  }
+  }
+  .bookauthor{
+      font-size: 10px;
+      margin-left :10px;
+      color :gray;
+  }
+  @media (max-width: 700px) {
+    .bookauthor{
+      font-size: 8px;
+  }
+  }
+  .buttons{
+    margin-top :10px;
+  }
+  .addtobag{
+    margin-right :5px;
+    padding: 7px;
+    padding-left :10px;
+    padding-right :10px;
+    background-color :rgb(243, 186, 248);
+    color: black;
+  }
+  @media (max-width: 700px) {
+    .addtobag{
+      margin-right :5px;
+      padding: 3px;
+    }
+  }
+  .wishlist{
+    padding:6px;
+    border: 1px groove black;
+    border-radius: 3px;
+    color: rgb(115, 10, 124);
+  }
+  @media (max-width: 700px) {
+    .wishlist{
+      padding: 3px;
+    }
+  }

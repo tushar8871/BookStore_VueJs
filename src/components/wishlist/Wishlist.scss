@@ -1,0 +1,94 @@
+.container{
+    padding-left: 15%;
+}
+.bookdetails {
+    width: 250px;
+    height: 320px;
+    display: inline-flex;
+    font: bold;
+  }
+  @media (max-width: 700px) {
+    .bookdetails {
+      width: 150px;
+      height: 200px;
+      font-size: 8px;
+    }
+  }
+  .imagediv {
+    padding-top: 10px;
+    width: 250px;
+    height: 180px;
+    background-color: rgb(102, 240, 240);
+  }
+  @media (max-width: 700px) {
+    .imagediv {
+      width: 150px;
+      height: 110px;
+    }
+  }
+  .bookimage {
+    width: 50%;
+    margin-left: 25%;
+  }
+  @media (max-width: 700px) {
+    .bookimage {
+      width: 70px;
+      margin-left: 25%;
+    }
+  }
+  .bookcredentials {
+    margin-top: 5px;
+  }
+  @media (max-width: 700px) {
+    .bookcredentials {
+      margin-top: 5px;
+    }
+  }
+  .booktitle {
+      font-size: 15px;
+      font-weight :bold;
+      margin-left :10px;
+  }
+  @media (max-width: 700px) {
+    .booktitle {
+      font-size: 8px;
+    }
+  }
+  .bookauthor{
+      font-size: 10px;
+      margin-left :10px;
+      color :gray;
+  }
+  @media (max-width: 700px) {
+    .bookauthor{
+      font-size: 8px;
+    }
+  }
+  .buttons{
+    margin-top :10px;
+  }
+  .checkout{
+    margin-right: 5px;
+    padding: 7px;
+    padding-left :10px;
+    padding-right :10px;
+    background-color :rgb(29, 140, 204);
+    color: white;
+  }
+  @media (max-width: 700px) {
+    .checkout{
+      margin-right :5px;
+      padding: 3px;
+    }
+  }
+  .remove{
+    padding:6px;
+    border: 1px groove rgb(29, 140, 204);
+    border-radius: 3px;
+    color: rgb(29, 140, 204);
+  }
+  @media (max-width: 700px) {
+    .remove{
+      padding: 3px;
+    }
+  }

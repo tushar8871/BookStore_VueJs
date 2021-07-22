@@ -1,0 +1,17 @@
+  .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(236, 228, 112), rgb(243, 148, 235));
+  color: black;
+  height: 50px;
+  font-family: fontawesome;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  margin-top: 100px;
+  }
+  .footer-text-style {
+  display: flex;
+  flex-direction: row;
+  }

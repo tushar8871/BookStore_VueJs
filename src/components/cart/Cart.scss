@@ -1,0 +1,119 @@
+.container{
+  margin-left: 30%;
+}
+@media (max-width: 700px) {
+  .container{
+    margin-left: 2%;
+  }
+}
+.mycartname{
+  font-size: 20px;
+  width: 90%;
+}
+.bookdetails {
+  width: 500px;
+  height: 220px;
+}
+@media (max-width: 700px) {
+  .bookdetails {
+    width: 280px;
+    height: 150px;
+    font-size: 8px;
+  }
+}
+.imagediv {
+  float: left;
+}
+@media (max-width: 700px) {
+  .imagediv {
+    padding: 1%;
+    width: 150px;
+    height: 150px;
+  }
+}
+.bookimage {
+  width: 150px;
+  margin: 10%;
+}
+@media (max-width: 700px) {
+  .bookimage {
+    width: 100px;
+    margin: 10%;
+  }
+}
+.bookcredentials {
+  padding-top: 5%;
+  padding-left: 40% ;
+}
+@media (max-width: 700px) {
+  .bookcredentials {
+    padding-top: 5%;
+    padding-left: 0%
+  }
+}
+.booktitle {
+    font-size: 20px;
+    font-weight :bold;
+    margin-left :10px;
+}
+@media (max-width: 700px) {
+  .booktitle {
+    font-size: 12px;
+  }
+}
+.bookauthor{
+    font-size: 15px;
+    margin-left :10px;
+    color :gray;
+}
+@media (max-width: 700px) {
+  .bookauthor{
+    font-size: 8px;
+  }
+}
+.buttons{
+  margin-top :10px;
+}
+.bookincrement{
+  display: inline;
+}
+.increment{
+  border: 1px groove rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+@media (max-width: 700px) {
+  .buttons{
+    margin-top :5px;
+  }
+  .bookincrement{
+    display: inline;
+  }
+  .increment{
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 2px;
+  }
+}
+.remove{
+  padding:7px;
+  margin-right: 30px;
+  margin-left: 65%;
+  border: 1px groove rgb(0, 0, 0);
+  background-image :linear-gradient(to right , rgb(247, 195, 195), rgb(168, 233, 241));
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+}
+@media (max-width: 700px) {
+  .remove{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 78%;
+  }
+}
